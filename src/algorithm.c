@@ -65,7 +65,9 @@ static int placing_width(Rectangle *list, int length)
 
 int algorithm(Rectangle *list, int length, Enclosing *en)
 {
-    int max_width, max_height, sum_width, sum_height;
+    int max_width = 48;
+    int max_height = 82;
+    int sum_width, sum_height;
     int area = -1;
     int min_w = -1, min_h = -1;
     int status;
